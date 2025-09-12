@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "generate-keys": "node generate-keys.js",
+    "serve-jwks": "node serve-jwks.js",
+    "sign-and-fetch": "node sign-and-fetch.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jose": "^6.1.0",
+    "puppeteer": "^24.21.0"
+  }
+}
